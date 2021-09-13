@@ -32,7 +32,9 @@
 \newcommand{\bfrac}[2]{\frac{\displaystyle #1}{\displaystyle #2}}
 \newcommand{\ket}[1]{\left\vert #1\right\rangle}
 \newcommand{\bra}[1]{\left\langle #1\right\vert}
-\newcommand{\braket}[2]{\left\langle#1\vert #2\right\rangle}
+\newcommand{\braket}[2]{\left\langle #1\vert #2\right\rangle}
+\newcommand{\braketop}[3]{\left\langle #1\vert #2\vert #3\right\rangle}
+\newcommand{\abs}[1]{\left\lvert #1\right\rvert}
 \usepackage{chngcntr}
 \counterwithin{figure}{section}
 
@@ -59,13 +61,18 @@
 \begin{document}
 
 \title{Quantum Bitcoin and Cheque}
+\author{Prasanta K. Panigrahi} 
+\affiliation{Indian Institute of Science Education and Research, Kolkata, India}
 \author{Ankan Mukherjee} 
 \email{190260008@iitb.ac.in}
 \affiliation{Indian Institute of Technology Bombay, Mumbai, India}
+\author{Bikash Behera}
 
 
 
 
+\tableofcontents
+\newpage
 \maketitle
 \input{abstract}
 \input{intro}
@@ -74,12 +81,16 @@
 \newpage
 \input{classical}
 \newpage
+\input{qcbasics}
+\newpage
 \input{grover}
 \newpage
 \input{work}
 \newpage
 \input{results}
-\pagebreak
+\newpage
+\input{future}
+\newpage
 \bibliography{refs}
 
 \end{document}

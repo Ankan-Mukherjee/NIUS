@@ -35,6 +35,10 @@ R.~Khalaf and A.~Abdullah, ``Generate quantum key by using quantum shift
   register,'' {\em International Journal of Computer Networks and
   Communications Security}, vol.~3, pp.~248--252, 06 2015.
 
+\bibitem{shankar}
+R.~Shankar, {\em {Principles of quantum mechanics}}.
+\newblock New York, NY: Plenum, 2~ed., 1980.
+
 \bibitem{grover}
 L.~K. Grover, ``A fast quantum mechanical algorithm for database search,'' in
   {\em Proceedings of the Twenty-Eighth Annual ACM Symposium on Theory of
@@ -44,5 +48,19 @@ L.~K. Grover, ``A fast quantum mechanical algorithm for database search,'' in
 \bibitem{gengrov}
 A.~Gilliam, M.~Pistoia, and C.~Gonciulea, ``Optimizing quantum search using a
   generalized version of grover's algorithm,'' 2020.
+
+\bibitem{qsys}
+``Ibm quantum computing systems.''
+  \url{https://www.ibm.com/quantum-computing/systems/}.
+\newblock Accessed: 2021-09-10.
+
+\bibitem{ent}
+D.~Rajan and M.~Visser, ``Quantum blockchain using entanglement in time,'' {\em
+  Quantum Reports}, vol.~1, no.~1, pp.~3--11, 2019.
+
+\bibitem{qkd}
+K.~Sarkar, B.~Behera, and P.~Panigrahi, ``A robust tripartite quantum key
+  distribution using mutually shared bell states and classical hash values
+  using a complete-graph network architecture,'' 05 2019.
 
 \end{thebibliography}
