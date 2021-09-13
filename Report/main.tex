@@ -1,0 +1,86 @@
+  
+\documentclass[letterpaper,aps,prc,superscriptaddress,nofootinbib,11pt,showpacs,floatfix]{revtex4-2}
+\usepackage{graphicx}
+\usepackage{comment}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{indentfirst}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\usepackage{epstopdf}
+\usepackage{hyperref}
+\usepackage{placeins}
+\usepackage{xfrac}
+\usepackage[table]{xcolor}
+\usepackage{array}
+\usepackage{changepage}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{listings}
+
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+\newcommand{\addmathvspace}{\vrule width 0pt height 4ex depth 2.5ex}
+\newcommand{\sqs}{\mbox{$\sqrt{s}$}\xspace}
+\newcommand{\ee}{\mbox{$e^{+} e^{-}$}\xspace}
+\newcommand{\pp}{\mbox{$pp\,(p\bar{p})$ }\xspace}
+\newcommand{\bfrac}[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+\newcommand{\ket}[1]{\left\vert #1\right\rangle}
+\newcommand{\bra}[1]{\left\langle #1\right\vert}
+\newcommand{\braket}[2]{\left\langle#1\vert #2\right\rangle}
+\usepackage{chngcntr}
+\counterwithin{figure}{section}
+
+\numberwithin{equation}{section}
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  frame=single,
+  breaklines=true,
+  postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
+}
+
+\advance\day by -1
+
+
+\bibliographystyle{ieeetr}
+
+
+\setlength{\arrayrulewidth}{0.8mm}
+\graphicspath{ {./Images/} }
+
+
+
+\begin{document}
+
+\title{Quantum Bitcoin and Cheque}
+\author{Ankan Mukherjee} 
+\email{190260008@iitb.ac.in}
+\affiliation{Indian Institute of Technology Bombay, Mumbai, India}
+
+
+
+
+\maketitle
+\input{abstract}
+\input{intro}
+\newpage
+\input{blockchain}
+\newpage
+\input{classical}
+\newpage
+\input{grover}
+\newpage
+\input{work}
+\newpage
+\input{results}
+\pagebreak
+\bibliography{refs}
+
+\end{document}
+

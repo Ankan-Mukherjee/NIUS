@@ -1,0 +1,48 @@
+\begin{thebibliography}{10}
+
+\bibitem{btc}
+S.~Nakamoto, ``Bitcoin: A peer-to-peer electronic cash system,''
+
+\bibitem{enc_br}
+V.~M. et. al., ``The impact of quantum computing on present cryptography,''
+  {\em International Journal of Advanced Computer Science and Applications},
+  vol.~9, no.~3, 2018.
+
+\bibitem{SHA}
+A.~L. Selvakumar and C.~S. Ganadhas, ``The evaluation report of sha-256 crypt
+  analysis hash function,'' in {\em 2009 International Conference on
+  Communication Software and Networks}, pp.~588--592, 2009.
+
+\bibitem{bcpic}
+``Blockchain technology basics.''
+  \url{https://www.spheregen.com/blockchain-technology-basics/}.
+\newblock Accessed: 2021-09-10.
+
+\bibitem{enc_rsa}
+R.~R.~A. Shamir and L.~Adleman, ``A method for obtaining digital signatures and
+  public-key cryptosystems,''
+
+\bibitem{pearson}
+P.~K. Pearson, ``Fast hashing of variablelength text strings,''
+
+\bibitem{lfsr}
+H.~Krawczyk, ``Lfsr-based hashing and authentication,'' in {\em Advances in
+  Cryptology --- CRYPTO '94} (Y.~G. Desmedt, ed.), (Berlin, Heidelberg),
+  pp.~129--139, Springer Berlin Heidelberg, 1994.
+
+\bibitem{qlfsr}
+R.~Khalaf and A.~Abdullah, ``Generate quantum key by using quantum shift
+  register,'' {\em International Journal of Computer Networks and
+  Communications Security}, vol.~3, pp.~248--252, 06 2015.
+
+\bibitem{grover}
+L.~K. Grover, ``A fast quantum mechanical algorithm for database search,'' in
+  {\em Proceedings of the Twenty-Eighth Annual ACM Symposium on Theory of
+  Computing}, STOC '96, (New York, NY, USA), p.~212–219, Association for
+  Computing Machinery, 1996.
+
+\bibitem{gengrov}
+A.~Gilliam, M.~Pistoia, and C.~Gonciulea, ``Optimizing quantum search using a
+  generalized version of grover's algorithm,'' 2020.
+
+\end{thebibliography}
