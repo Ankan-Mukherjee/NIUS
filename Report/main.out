@@ -3,49 +3,49 @@
 \BOOKMARK [1][-]{section*.3}{Abstract}{section*.2}% 3
 \BOOKMARK [1][-]{section*.4}{Introduction}{section*.2}% 4
 \BOOKMARK [2][-]{section*.5}{Background}{section*.4}% 5
-\BOOKMARK [2][-]{section*.6}{Objectives}{section*.4}% 6
-\BOOKMARK [2][-]{section*.7}{Applications}{section*.4}% 7
-\BOOKMARK [2][-]{section*.8}{System Requirements}{section*.4}% 8
-\BOOKMARK [1][-]{section*.9}{Blockchain}{section*.2}% 9
-\BOOKMARK [1][-]{section*.10}{Classical Algorithms}{section*.2}% 10
-\BOOKMARK [2][-]{section*.11}{Encryption}{section*.10}% 11
-\BOOKMARK [2][-]{section*.12}{Hashing}{section*.10}% 12
-\BOOKMARK [3][-]{section*.13}{SHA-256}{section*.12}% 13
-\BOOKMARK [3][-]{section*.14}{Surrogate Hash Function: Pearson Hashes and LFSRs}{section*.12}% 14
-\BOOKMARK [2][-]{section*.15}{The Epoch, Nonce and Mining}{section*.10}% 15
-\BOOKMARK [1][-]{section*.16}{Quantum Computing Foundations}{section*.2}% 16
-\BOOKMARK [2][-]{section*.17}{Qubits}{section*.16}% 17
-\BOOKMARK [2][-]{section*.18}{Superposition}{section*.16}% 18
-\BOOKMARK [2][-]{section*.19}{Multiple Qubits}{section*.16}% 19
-\BOOKMARK [2][-]{section*.20}{Quantum Gates}{section*.16}% 20
-\BOOKMARK [3][-]{section*.21}{Hadamard Gate}{section*.20}% 21
-\BOOKMARK [3][-]{section*.22}{X Gate}{section*.20}% 22
-\BOOKMARK [3][-]{section*.23}{Y Gate}{section*.20}% 23
-\BOOKMARK [3][-]{section*.24}{Z Gate}{section*.20}% 24
-\BOOKMARK [3][-]{section*.25}{Rx Gate}{section*.20}% 25
-\BOOKMARK [3][-]{section*.26}{Ry Gate}{section*.20}% 26
-\BOOKMARK [3][-]{section*.27}{Rz Gate}{section*.20}% 27
-\BOOKMARK [3][-]{section*.28}{CX Gate}{section*.20}% 28
-\BOOKMARK [3][-]{section*.29}{CZ Gate}{section*.20}% 29
-\BOOKMARK [3][-]{section*.30}{SWAP Gate}{section*.20}% 30
-\BOOKMARK [3][-]{section*.31}{MCT Gate}{section*.20}% 31
-\BOOKMARK [2][-]{section*.32}{Entanglement}{section*.16}% 32
-\BOOKMARK [1][-]{section*.33}{Grover's Algorithm}{section*.2}% 33
-\BOOKMARK [2][-]{section*.34}{Oracle}{section*.33}% 34
-\BOOKMARK [2][-]{section*.35}{Diffuser}{section*.33}% 35
-\BOOKMARK [2][-]{section*.36}{The Method}{section*.33}% 36
-\BOOKMARK [3][-]{section*.37}{Implementation of the Oracle}{section*.36}% 37
-\BOOKMARK [3][-]{section*.38}{Implementation of the Diffuser}{section*.36}% 38
-\BOOKMARK [2][-]{section*.39}{Number of Iterations}{section*.33}% 39
-\BOOKMARK [2][-]{section*.40}{Generalized Grover Search}{section*.33}% 40
-\BOOKMARK [1][-]{section*.41}{Our Work}{section*.2}% 41
-\BOOKMARK [2][-]{section*.42}{Classical Hashing Algorithm}{section*.41}% 42
-\BOOKMARK [2][-]{section*.43}{Quantum Hashing Algorithm}{section*.41}% 43
-\BOOKMARK [3][-]{section*.44}{The Two LFSRs and Their Inverses}{section*.43}% 44
-\BOOKMARK [3][-]{section*.45}{The Hashing Operation}{section*.43}% 45
-\BOOKMARK [3][-]{section*.46}{The Oracle}{section*.43}% 46
-\BOOKMARK [3][-]{section*.47}{Grover Search}{section*.43}% 47
-\BOOKMARK [3][-]{section*.48}{Generalized Grover Search}{section*.43}% 48
+\BOOKMARK [2][-]{section*.6}{Objectives And Applications}{section*.4}% 6
+\BOOKMARK [2][-]{section*.7}{System Requirements}{section*.4}% 7
+\BOOKMARK [1][-]{section*.8}{Blockchain}{section*.2}% 8
+\BOOKMARK [1][-]{section*.9}{Classical Algorithms}{section*.2}% 9
+\BOOKMARK [2][-]{section*.10}{Encryption}{section*.9}% 10
+\BOOKMARK [2][-]{section*.11}{Hashing}{section*.9}% 11
+\BOOKMARK [3][-]{section*.12}{SHA-256}{section*.11}% 12
+\BOOKMARK [3][-]{section*.13}{Surrogate Hash Function: Pearson Hashes and LFSRs}{section*.11}% 13
+\BOOKMARK [2][-]{section*.14}{The Epoch, Nonce and Mining}{section*.9}% 14
+\BOOKMARK [1][-]{section*.15}{Quantum Computing Foundations}{section*.2}% 15
+\BOOKMARK [2][-]{section*.16}{Qubits}{section*.15}% 16
+\BOOKMARK [2][-]{section*.17}{Superposition}{section*.15}% 17
+\BOOKMARK [2][-]{section*.18}{Multiple Qubits}{section*.15}% 18
+\BOOKMARK [2][-]{section*.19}{Quantum Gates}{section*.15}% 19
+\BOOKMARK [3][-]{section*.20}{Hadamard Gate}{section*.19}% 20
+\BOOKMARK [3][-]{section*.21}{X Gate}{section*.19}% 21
+\BOOKMARK [3][-]{section*.22}{Y Gate}{section*.19}% 22
+\BOOKMARK [3][-]{section*.23}{Z Gate}{section*.19}% 23
+\BOOKMARK [3][-]{section*.24}{Rx Gate}{section*.19}% 24
+\BOOKMARK [3][-]{section*.25}{Ry Gate}{section*.19}% 25
+\BOOKMARK [3][-]{section*.26}{Rz Gate}{section*.19}% 26
+\BOOKMARK [3][-]{section*.27}{CX Gate}{section*.19}% 27
+\BOOKMARK [3][-]{section*.28}{CZ Gate}{section*.19}% 28
+\BOOKMARK [3][-]{section*.29}{SWAP Gate}{section*.19}% 29
+\BOOKMARK [3][-]{section*.30}{MCT Gate}{section*.19}% 30
+\BOOKMARK [2][-]{section*.31}{Entanglement}{section*.15}% 31
+\BOOKMARK [1][-]{section*.32}{Grover's Algorithm}{section*.2}% 32
+\BOOKMARK [2][-]{section*.33}{Oracle}{section*.32}% 33
+\BOOKMARK [2][-]{section*.34}{Diffuser}{section*.32}% 34
+\BOOKMARK [2][-]{section*.35}{The Method}{section*.32}% 35
+\BOOKMARK [3][-]{section*.36}{Implementation of the Oracle}{section*.35}% 36
+\BOOKMARK [3][-]{section*.37}{Implementation of the Diffuser}{section*.35}% 37
+\BOOKMARK [2][-]{section*.38}{Number of Iterations}{section*.32}% 38
+\BOOKMARK [2][-]{section*.39}{Generalized Grover Search}{section*.32}% 39
+\BOOKMARK [1][-]{section*.40}{Our Work}{section*.2}% 40
+\BOOKMARK [2][-]{section*.41}{Classical Hashing Algorithm}{section*.40}% 41
+\BOOKMARK [2][-]{section*.42}{Quantum Hashing Algorithm}{section*.40}% 42
+\BOOKMARK [3][-]{section*.43}{The Two LFSRs and Their Inverses}{section*.42}% 43
+\BOOKMARK [3][-]{section*.44}{The Hashing Operation}{section*.42}% 44
+\BOOKMARK [3][-]{section*.45}{The Oracle}{section*.42}% 45
+\BOOKMARK [2][-]{section*.46}{Searching the Nonce}{section*.40}% 46
+\BOOKMARK [3][-]{section*.47}{Grover Search}{section*.46}% 47
+\BOOKMARK [3][-]{section*.48}{Generalized Grover Search}{section*.46}% 48
 \BOOKMARK [1][-]{section*.49}{Results}{section*.2}% 49
 \BOOKMARK [2][-]{section*.50}{Number of Gates}{section*.49}% 50
 \BOOKMARK [3][-]{section*.51}{Qiskit Simulation}{section*.50}% 51
@@ -54,3 +54,6 @@
 \BOOKMARK [2][-]{section*.54}{Developing a Secure Blockchain Using Entanglement}{section*.52}% 54
 \BOOKMARK [2][-]{section*.55}{Quantum Hashing}{section*.52}% 55
 \BOOKMARK [1][-]{section*.56}{References}{section*.2}% 56
+\BOOKMARK [1][-]{section*.57}{Appendix A: Field Theory and LFSR}{section*.2}% 57
+\BOOKMARK [1][-]{section*.58}{Appendix B: Pauli Matrices AND Bloch Sphere}{section*.2}% 58
+\BOOKMARK [1][-]{section*.59}{Appendix C: Bell's Measure and the EPR Paradox}{section*.2}% 59

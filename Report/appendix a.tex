@@ -1,0 +1,21 @@
+\section*{Appendix A: Field Theory and LFSR}
+\label{appA}
+\noindent We start with group theory. A group is a set of elements $G$ with a binary operator $\oplus$ satisfying the following axioms:
+\begin{enumerate}
+\item Closure: $a\oplus b\in G\ \forall a,b\in G$.
+\item Associativity: $\forall a,b,c\in G,\ a\oplus(b\oplus c)=(a\oplus b)\oplus c$.
+\item Existence of identity: $\exists e\in G:\ \forall a\in G, e\oplus a=a\oplus e=a$.
+\item Existence of Inverse: $\forall a\in G\ \exists b\in G:\ a\oplus b=e$.
+\end{enumerate}
+A group is said to be Abelian if it is commutative, i.e., $a\oplus b=b\oplus a\ \forall a,b\in G$.\\
+We will now define a field. A field $\mathbb{F}$ is a set of atleast two elements, with two operations, $\oplus$ and $\otimes$ such that the following conditions hold:
+\begin{enumerate}
+\item Addition axioms: $\mathbb{F}$ forms an Abelian group under $\oplus$ with identity $0$.
+\item Multiplication axioms: $\mathbb{F}^*=\mathbb{F}\backslash\{0\}$ forms an Abelian group under $\otimes$ with identity $1$.
+\item Distributive Law: $\forall a,b,c\in G,\ a\otimes(b\oplus c)=(a\otimes b)\oplus c$.
+\end{enumerate}
+A field is called a finite field or a Galois field if and only if it has finitely many elements. An example of such a field is the residue class modulo a prime $p$ given as $\mathbb{F}_p=\{0,1,\cdots,p-1\}$ under $\oplus = \text{addition mod }p$ and $\otimes = \text{multiplication mod }p$. Note that the residue classes of composite numbers do not form a field since they contain non zero elements that do not have an inverse. One such example is the residue class of $6$, which contains $2$ which has no inverse.\\
+The field $\mathbb{F}_{p^k}$ is defined as the set of polynomials $P(x)$ of degree $k-1$ whose coefficients are taken modulo $p$. The operators are deined as $\oplus = \text{usual polynomial addition with coeffecients mod }p$ and $\otimes = \text{usual polynomial multiplication with coeffecients mod }p\text{ modulo another polynomial }Q(x)\text{ of degree }k$. To ensure that $\mathbb{F}_{p^k}$ is indeed a field, $Q(x)$ must not be factorizable into polynomials of degree lower than $k$, otherwise elements in $\mathbb{F}_{p^k}$ may not have an inverse. Such $Q(x)$ which are non factorizable are called \textbf{primitive polynomials}.
+
+An LFSR of $n$ bits can be represented using $\mathbb{F}_{2^k}$. The coefficient of each polynomial can thus be only $0$ or $1$, which represents the state of that bit. Shifting registers is like multiplying the polynomial by $x$ and using taps is choosing the $Q(x)$. We have chosen taps at $3$, $4$, $5$ and $7$ for the first LFSR and at $1$, $2$, $4$ and $7$ for the second register. Since we are using the little endian system, the corresponding polynomials are $1+x^3+x^5+x^6$ and $1+x^2+x^3+x^4$ respectively, both of which are primitive.
+

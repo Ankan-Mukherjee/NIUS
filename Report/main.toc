@@ -5,54 +5,57 @@
 \contentsline {section}{\numberline {}Abstract}{3}{section*.3}%
 \contentsline {section}{\numberline {I}Introduction}{3}{section*.4}%
 \contentsline {subsection}{\numberline {A}Background}{3}{section*.5}%
-\contentsline {subsection}{\numberline {B}Objectives}{4}{section*.6}%
-\contentsline {subsection}{\numberline {C}Applications}{4}{section*.7}%
-\contentsline {subsection}{\numberline {D}System Requirements}{4}{section*.8}%
-\contentsline {section}{\numberline {II}Blockchain}{5}{section*.9}%
-\contentsline {section}{\numberline {III}Classical Algorithms}{7}{section*.10}%
-\contentsline {subsection}{\numberline {A}Encryption}{7}{section*.11}%
-\contentsline {subsection}{\numberline {B}Hashing}{7}{section*.12}%
-\contentsline {subsubsection}{\numberline {}SHA-256}{7}{section*.13}%
-\contentsline {subsubsection}{\numberline {}Surrogate Hash Function: Pearson Hashes and LFSRs}{11}{section*.14}%
-\contentsline {subsection}{\numberline {C}The Epoch, Nonce and Mining}{12}{section*.15}%
-\contentsline {section}{\numberline {IV}Quantum Computing Foundations}{13}{section*.16}%
-\contentsline {subsection}{\numberline {A}Qubits}{13}{section*.17}%
-\contentsline {subsection}{\numberline {B}Superposition}{13}{section*.18}%
-\contentsline {subsection}{\numberline {C}Multiple Qubits}{14}{section*.19}%
-\contentsline {subsection}{\numberline {D}Quantum Gates}{15}{section*.20}%
-\contentsline {subsubsection}{\numberline {}Hadamard Gate}{15}{section*.21}%
-\contentsline {subsubsection}{\numberline {}X Gate}{16}{section*.22}%
-\contentsline {subsubsection}{\numberline {}Y Gate}{17}{section*.23}%
-\contentsline {subsubsection}{\numberline {}Z Gate}{17}{section*.24}%
-\contentsline {subsubsection}{\numberline {}$R_x$ Gate}{18}{section*.25}%
-\contentsline {subsubsection}{\numberline {}$R_y$ Gate}{18}{section*.26}%
-\contentsline {subsubsection}{\numberline {}$R_z$ Gate}{18}{section*.27}%
-\contentsline {subsubsection}{\numberline {}CX Gate}{19}{section*.28}%
-\contentsline {subsubsection}{\numberline {}CZ Gate}{20}{section*.29}%
-\contentsline {subsubsection}{\numberline {}SWAP Gate}{21}{section*.30}%
-\contentsline {subsubsection}{\numberline {}MCT Gate}{22}{section*.31}%
-\contentsline {subsection}{\numberline {E}Entanglement}{23}{section*.32}%
-\contentsline {section}{\numberline {V}Grover's Algorithm}{25}{section*.33}%
-\contentsline {subsection}{\numberline {A}Oracle}{25}{section*.34}%
-\contentsline {subsection}{\numberline {B}Diffuser}{25}{section*.35}%
-\contentsline {subsection}{\numberline {C}The Method}{26}{section*.36}%
-\contentsline {subsubsection}{\numberline {}Implementation of the Oracle}{27}{section*.37}%
-\contentsline {subsubsection}{\numberline {}Implementation of the Diffuser}{28}{section*.38}%
-\contentsline {subsection}{\numberline {D}Number of Iterations}{29}{section*.39}%
-\contentsline {subsection}{\numberline {E}Generalized Grover Search}{29}{section*.40}%
-\contentsline {section}{\numberline {VI}Our Work}{31}{section*.41}%
-\contentsline {subsection}{\numberline {A}Classical Hashing Algorithm}{31}{section*.42}%
-\contentsline {subsection}{\numberline {B}Quantum Hashing Algorithm}{32}{section*.43}%
-\contentsline {subsubsection}{\numberline {}The Two LFSRs and Their Inverses}{33}{section*.44}%
-\contentsline {subsubsection}{\numberline {}The Hashing Operation}{33}{section*.45}%
-\contentsline {subsubsection}{\numberline {}The Oracle}{33}{section*.46}%
+\contentsline {subsection}{\numberline {B}Objectives And Applications}{4}{section*.6}%
+\contentsline {subsection}{\numberline {C}System Requirements}{4}{section*.7}%
+\contentsline {section}{\numberline {II}Blockchain}{5}{section*.8}%
+\contentsline {section}{\numberline {III}Classical Algorithms}{7}{section*.9}%
+\contentsline {subsection}{\numberline {A}Encryption}{7}{section*.10}%
+\contentsline {subsection}{\numberline {B}Hashing}{7}{section*.11}%
+\contentsline {subsubsection}{\numberline {}SHA-256}{7}{section*.12}%
+\contentsline {subsubsection}{\numberline {}Surrogate Hash Function: Pearson Hashes and LFSRs}{11}{section*.13}%
+\contentsline {subsection}{\numberline {C}The Epoch, Nonce and Mining}{12}{section*.14}%
+\contentsline {section}{\numberline {IV}Quantum Computing Foundations}{13}{section*.15}%
+\contentsline {subsection}{\numberline {A}Qubits}{13}{section*.16}%
+\contentsline {subsection}{\numberline {B}Superposition}{13}{section*.17}%
+\contentsline {subsection}{\numberline {C}Multiple Qubits}{14}{section*.18}%
+\contentsline {subsection}{\numberline {D}Quantum Gates}{15}{section*.19}%
+\contentsline {subsubsection}{\numberline {}Hadamard Gate}{15}{section*.20}%
+\contentsline {subsubsection}{\numberline {}X Gate}{16}{section*.21}%
+\contentsline {subsubsection}{\numberline {}Y Gate}{17}{section*.22}%
+\contentsline {subsubsection}{\numberline {}Z Gate}{18}{section*.23}%
+\contentsline {subsubsection}{\numberline {}$R_x$ Gate}{18}{section*.24}%
+\contentsline {subsubsection}{\numberline {}$R_y$ Gate}{18}{section*.25}%
+\contentsline {subsubsection}{\numberline {}$R_z$ Gate}{19}{section*.26}%
+\contentsline {subsubsection}{\numberline {}CX Gate}{19}{section*.27}%
+\contentsline {subsubsection}{\numberline {}CZ Gate}{20}{section*.28}%
+\contentsline {subsubsection}{\numberline {}SWAP Gate}{22}{section*.29}%
+\contentsline {subsubsection}{\numberline {}MCT Gate}{23}{section*.30}%
+\contentsline {subsection}{\numberline {E}Entanglement}{23}{section*.31}%
+\contentsline {section}{\numberline {V}Grover's Algorithm}{25}{section*.32}%
+\contentsline {subsection}{\numberline {A}Oracle}{25}{section*.33}%
+\contentsline {subsection}{\numberline {B}Diffuser}{25}{section*.34}%
+\contentsline {subsection}{\numberline {C}The Method}{26}{section*.35}%
+\contentsline {subsubsection}{\numberline {}Implementation of the Oracle}{27}{section*.36}%
+\contentsline {subsubsection}{\numberline {}Implementation of the Diffuser}{28}{section*.37}%
+\contentsline {subsection}{\numberline {D}Number of Iterations}{29}{section*.38}%
+\contentsline {subsection}{\numberline {E}Generalized Grover Search}{29}{section*.39}%
+\contentsline {section}{\numberline {VI}Our Work}{31}{section*.40}%
+\contentsline {subsection}{\numberline {A}Classical Hashing Algorithm}{31}{section*.41}%
+\contentsline {subsection}{\numberline {B}Quantum Hashing Algorithm}{32}{section*.42}%
+\contentsline {subsubsection}{\numberline {}The Two LFSRs and Their Inverses}{33}{section*.43}%
+\contentsline {subsubsection}{\numberline {}The Hashing Operation}{33}{section*.44}%
+\contentsline {subsubsection}{\numberline {}The Oracle}{33}{section*.45}%
+\contentsline {subsection}{\numberline {C}Searching the Nonce}{36}{section*.46}%
 \contentsline {subsubsection}{\numberline {}Grover Search}{36}{section*.47}%
 \contentsline {subsubsection}{\numberline {}Generalized Grover Search}{37}{section*.48}%
-\contentsline {section}{\numberline {VII}Results}{38}{section*.49}%
-\contentsline {subsubsection}{\numberline {}Number of Gates}{38}{section*.50}%
-\contentsline {subsubsection}{\numberline {}Qiskit Simulation}{39}{section*.51}%
+\contentsline {section}{\numberline {VII}Results}{39}{section*.49}%
+\contentsline {subsubsection}{\numberline {}Number of Gates}{39}{section*.50}%
+\contentsline {subsubsection}{\numberline {}Qiskit Simulation}{40}{section*.51}%
 \contentsline {section}{\numberline {VIII}Future Work to be Done}{42}{section*.52}%
 \contentsline {subsection}{\numberline {A}Testing on Real Quantum Hardware}{42}{section*.53}%
 \contentsline {subsection}{\numberline {B}Developing a Secure Blockchain Using Entanglement}{42}{section*.54}%
 \contentsline {subsection}{\numberline {C}Quantum Hashing}{42}{section*.55}%
 \contentsline {section}{\numberline {}References}{43}{section*.56}%
+\contentsline {section}{\numberline {}Appendix A: Field Theory and LFSR}{44}{section*.57}%
+\contentsline {section}{\numberline {}Appendix B: Pauli Matrices AND Bloch Sphere}{45}{section*.58}%
+\contentsline {section}{\numberline {}Appendix C: Bell's Measure and the EPR Paradox}{46}{section*.59}%

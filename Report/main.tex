@@ -23,6 +23,8 @@
 \usepackage{listings}
 
 
+
+
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 \newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
 \newcommand{\addmathvspace}{\vrule width 0pt height 4ex depth 2.5ex}
@@ -47,7 +49,6 @@
   postbreak=\mbox{\textcolor{red}{$\hookrightarrow$}\space},
 }
 
-\advance\day by -1
 
 
 \bibliographystyle{ieeetr}
@@ -61,16 +62,10 @@
 \begin{document}
 
 \title{Quantum Bitcoin and Cheque}
-\author{Prasanta K. Panigrahi} 
-\affiliation{Indian Institute of Science Education and Research, Kolkata, India}
-\author{Ankan Mukherjee} 
-\email{190260008@iitb.ac.in}
-\affiliation{Indian Institute of Technology Bombay, Mumbai, India}
-\author{Bikash Behera}
 
 
 
-
+%\includepdf[pages=-]{myfile.pdf}
 \tableofcontents
 \newpage
 \maketitle
@@ -92,6 +87,11 @@
 \input{future}
 \newpage
 \bibliography{refs}
+\newpage
+\input{appendix a}
+\input{appendix b}
+\input{appendix c}
+\newpage
 
 \end{document}
 

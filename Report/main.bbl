@@ -63,4 +63,23 @@ K.~Sarkar, B.~Behera, and P.~Panigrahi, ``A robust tripartite quantum key
   distribution using mutually shared bell states and classical hash values
   using a complete-graph network architecture,'' 05 2019.
 
+\bibitem{bsphere}
+Smite-Meister, ``Bloch sphere.''
+  \url{https://creativecommons.org/licenses/by-sa/3.0}.
+\newblock Accessed: 2021-09-10.
+
+\bibitem{EPR}
+A.~Einstein, B.~Podolsky, and N.~Rosen, ``Can quantum-mechanical description of
+  physical reality be considered complete?,'' {\em Phys. Rev.}, vol.~47,
+  pp.~777--780, May 1935.
+
+\bibitem{bell}
+J.~S. Bell, ``On the einstein podolsky rosen paradox,'' {\em Physics Physique
+  Fizika}, vol.~1, pp.~195--200, Nov 1964.
+
+\bibitem{chsh}
+J.~F. Clauser, M.~A. Horne, A.~Shimony, and R.~A. Holt, ``Proposed experiment
+  to test local hidden-variable theories,'' {\em Phys. Rev. Lett.}, vol.~23,
+  pp.~880--884, Oct 1969.
+
 \end{thebibliography}

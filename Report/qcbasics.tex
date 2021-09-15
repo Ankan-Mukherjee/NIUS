@@ -157,7 +157,7 @@ The corresponding circuit diagram is given in figure \ref{Fig:4.1}
 
 
 \subsubsection*{X Gate}
-The Pauli-$X$ gate is a \textbf{one-qubit} gate that is denoted by $X$. It performs the operation of a classical NOT, i.e., it operates like the Pauli matrix $\sigma_x$ as follows.
+The Pauli-$X$ gate is a \textbf{one-qubit} gate that is denoted by $X$ (See \ref{appB} for more details about Pauli Gates). It performs the operation of a classical NOT, i.e., it operates like the Pauli matrix $\sigma_x$ as follows. 
 \begin{equation*}
 \begin{split}
 X\ket{0}&=\ket{1}=
@@ -404,14 +404,14 @@ Note that the order of the qubits is unimportant here. The corresponding circuit
 The SWAP gate is a \textbf{two-qubit} gate that is denoted by $SWAP$. It swaps the two qubits. Its working is shown below.
 \begin{equation*}
 \begin{split}
-CX\ket{00}&=\ket{00}=
+SWAP\ket{00}&=\ket{00}=
 \begin{pmatrix}
 1\\
 0\\
 0\\
 0
 \end{pmatrix}\\
-CX\ket{01}&=\ket{10}=
+SWAP\ket{01}&=\ket{10}=
 \begin{pmatrix}
 0\\
 0\\
@@ -422,14 +422,14 @@ CX\ket{01}&=\ket{10}=
 \end{equation*}
 \begin{equation*}
 \begin{split}
-CX\ket{10}&=\ket{01}=
+SWAP\ket{10}&=\ket{01}=
 \begin{pmatrix}
 0\\
 1\\
 0\\
 0
 \end{pmatrix}\\
-CX\ket{11}&=\ket{11}=
+SWAP\ket{11}&=\ket{11}=
 \begin{pmatrix}
 0\\
 0\\
@@ -490,4 +490,4 @@ Entanglement is the is phenomenon where two or more quantum particles (qubits) a
 \ket{\psi}=\bfrac{\ket{00}+\ket{11}}{\sqrt{2}}
 \end{equation*}
 If the measurement of the first particle collapses to $\ket{0}$, the second particle collapses to $\ket{0}$ as well.\\
-Note that entangled states cannot be factored into a direct product of two single qubit states. This is a phenomenon that is purely quantum mechanical and is extremely useful in secure communication. This is because, since a measurement of any one particle collapses the wavefunction of the other particles as well, eavsdroppers will never go unnoticed, unlike in the classical case. To measure entanglement, we use the concepts of Bell's inequality. Entanglement has led to several paradoxes as well, the most famous of which is the EPR paradox.%This is presented in appendix
+Note that entangled states cannot be factored into a direct product of two single qubit states. This is a phenomenon that is purely quantum mechanical and is extremely useful in secure communication. This is because, since a measurement of any one particle collapses the wavefunction of the other particles as well, eavsdroppers will never go unnoticed, unlike in the classical case. To measure entanglement, we use the concepts of Bell's inequality. Entanglement has led to several paradoxes as well, the most famous of which is the EPR paradox presented in \ref{appC}

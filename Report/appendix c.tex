@@ -1,0 +1,124 @@
+\section*{Appendix C: Bell's Measure and the EPR Paradox}
+\label{appC}
+
+Before talking about the bell's measure let us first dive into why it was made and for this we must look at the EPR experiment\cite{EPR}. We will discuss Bohm's variant since Bell's response was made in a way to that. Say we have prepared a electron-positron pair coming from a single source. These would be entangled in a way where if we measure the spin of one of the particles, the other particle will simultaneously collapse to the opposite spin.
+$$\ket{\psi} = \bfrac{\ket{\uparrow_e\downarrow_p} + \ket{\downarrow_e\uparrow_p}}{\sqrt{2}}$$
+So the main issue which Einstein had was that this means that measurement on one particle directly affects the other no matter how far it is. This makes it a non local effect which clearly does not make sense in a world which was believed to follow local realism. It can be proven that the two agents have no way to communicate using this pair hence showing that there actually is no faster than light communication. While one may think choosing basis in a certain manner can change measurement probabilities and essentially have some "information" change, no matter how much measurements are done, since this is probabilistic the other agent cannot conclude anything from that.   
+
+While there have been multiple responses to this, the most important one is the one discussed in Bell's paper \cite{bell}.
+First we will start by considering the EPR argument using spin particles. Consider a pair of spin one-half particles formed somehow in the singlet spin state and moving freely in opposite directions. Measurements can be made, say by Stern-Gerlach magnets, on selected components of the spins $\vec{\sigma_1}$ and $\vec{\sigma_2}$,
+If measurement of the component $\vec{\sigma_1}\cdot{a}$, where $a$ is some unit vector, yields the value +1 then, according to quantum mechanics, measurement of $\vec{\sigma_2}\cdot{a}$ must yield the value -1 and vice versa.
+We now define some set of parameters $\lambda$ which is taken as continuous which give us a complete description of the state. The result $A$ of measuring $\vec{\sigma_1}\cdot{a}$ is then determined by $a$ and $\lambda$, and the result $B$ of measuring $\vec{\sigma_2}\cdot{b}$ in the
+same instance is determined by $b$ and $\lambda$.
+\begin{equation}
+\label{eq:1A} 
+A(\vec{a},\lambda) = \pm 1, B(\vec{b},\lambda) = \pm 1 
+\end{equation}
+We now take $\rho(\lambda)$ as the probability distribution of $\lambda$ and we will now try to find the expectation value of of the product of the two components $\vec{\sigma_1}\cdot{a}$ and $\vec{\sigma_2}\cdot{b}$.
+\begin{equation}
+\label{eq:2A}
+P(\vec{a}\vec{b}) = \int{d\lambda}\rho(\lambda)A(\vec{a},\lambda)B(\vec{b},\lambda)
+\end{equation}
+The quantum mechanical expectation value of this is the following
+\begin{equation}
+\label{eq:3A}\langle\vec{\sigma_1}\cdot{a}\vec{\sigma_2}\cdot{b}\rangle = - \vec{a}\cdot\vec{b}
+\end{equation}
+However it turns out that equation \ref{eq:2A} doesn't give us the same result as \ref{eq:3A}. So first off we know that we have a normalized distribution.
+\begin{equation}
+\label{eq:4A}
+\int{d\lambda}\rho(\lambda) = 1
+\end{equation}
+if we take $\vec{a} = \vec{b}$ the $P$ in equation \ref{eq:2A} can reach -1.
+\begin{equation}
+\label{eq:5A}
+A(\vec{a},\lambda) = -B(\vec{a},\lambda)
+\end{equation}
+Knowing this we can rewrite equation \ref{eq:2A} into the following
+\begin{equation}
+\label{eq:6A}
+P(\vec{a}\vec{b}) = -\int{d\lambda}\rho(\lambda)A(\vec{a},\lambda)A(\vec{b},\lambda)
+\end{equation}
+\begin{equation}
+\label{eq:7A}
+P(\vec{a},\vec{b}) - P(\vec{a},\vec{c}) = \int{d\lambda}\rho(\lambda)[1-A(\vec{b},\lambda)A(\vec{c},\lambda)]
+\end{equation}
+from equation \ref{eq:1A} we can write this
+\begin{equation}
+\label{eq:8A}
+|P(\vec{a},\vec{b}) - P(\vec{a},\vec{c})| \leq \int{d\lambda}\rho(\lambda)A(\vec{a},\lambda)A(\vec{b},\lambda)[A(\vec{b},\lambda)A(\vec{c},\lambda) - 1]
+\end{equation}
+The second term on the right is just $P(\vec{b},\vec{c})$ so we get
+\begin{equation}
+\label{eq:9A}1 + P(\vec{b},\vec{c}) \geq |P(\vec{a},\vec{b}) - P(\vec{a},\vec{c})|
+\end{equation}
+Now we define a $\overline{P}(\vec{a},\vec{b})$ and a $\overline{- \vec{a}\cdot\vec{b}}$ which essentially are the averages over vectors differing from a small angle from $\vec{a}$ and $\vec{b}$ of the quantities under the bar. Let's suppose the following holds for some $\epsilon$
+\begin{equation}
+\label{eq:10A}|\overline{P}(\vec{a},\vec{b}) + \overline{\vec{a}\cdot\vec{b}}| \leq \epsilon
+\end{equation}
+We cannot make $\epsilon$ arbitrarily small and this can be proven by the following steps. Let us first assume the following inequality holds for all $\vec{a}$ and $\vec{b}$
+\begin{equation}
+\label{eq:11A}
+|\overline{\vec{a}\cdot\vec{b}} - \vec{a}\cdot\vec{b}| \leq\delta
+\end{equation}
+Then using equation \ref{eq:11A} and equation \ref{eq:10A} we have
+\begin{equation}
+\label{eq:12A}
+|\overline{P}(\vec{a},\vec{b}) + \vec{a}\cdot\vec{b}| \leq \epsilon + \delta
+\end{equation}
+Now taking $\vec{a} = \vec{b}$ (hence their dot product is 1) we rewrite equation \ref{eq:12A} as the equation below while using the fact that $\overline{P(\vec{a},\vec{b})} = \int d\lambda\rho(\lambda)\overline{A}(\vec{a},\lambda)\overline{B}(\vec{b},\lambda))$.
+\begin{equation}
+\label{eq:13A}
+\int d\lambda\rho(\lambda)[\overline{A}(\vec{b},\lambda)\overline{B}(\vec{b},\lambda))+1] \leq\epsilon+\delta
+\end{equation}
+We can extend from \ref{eq:1A} that on averaging over a small range, $|\overline{A}(\vec{a},\lambda)| \leq 1$ and $|\overline{B}(\vec{b},\lambda)| \leq 1$. Now we can write the following
+\begin{equation}
+\label{eq:14A}
+\overline{P}(\vec{a},\vec{b})-\overline{P}(\vec{b},\vec{c}) = \int{d\lambda}\rho(\lambda)\overline{A}(\vec{a},\lambda)\overline{B}(\vec{b},\lambda)[\overline{A}(\vec{b},\lambda)\overline{B}(\vec{c},\lambda) + 1] - \int{d\lambda}\rho(\lambda)\overline{A}(\vec{a},\lambda)\overline{B}(\vec{c},\lambda)[\overline{A}(\vec{b},\lambda)\overline{B}(\vec{b},\lambda) + 1]
+\end{equation}
+Using the inequalities on the averaged $A$ and $B$ we can write the following
+\begin{equation}
+\label{eq:15A}
+|\overline{P}(\vec{a},\vec{b})-\overline{P}(\vec{b},\vec{c})| \leq \int{d\lambda}\rho(\lambda)[\overline{A}(\vec{b},\lambda)\overline{B}(\vec{c},\lambda) + 1] - \int{d\lambda}\rho(\lambda)[\overline{A}(\vec{b},\lambda)\overline{B}(\vec{b},\lambda) + 1]
+\end{equation}
+\begin{equation}
+\label{eq:16A}
+|\overline{P}(\vec{a},\vec{b})-\overline{P}(\vec{b},\vec{c})| \leq 1 + \overline{P} + \epsilon+\delta
+\end{equation}
+We write equation \ref{eq:16A} using equation \ref{eq:15A} and equation \ref{eq:13A}. Finally using equation \ref{eq:12A} we rewrite the above equation as
+\begin{equation}
+\label{eq:17A}
+|\vec{a}\cdot\vec{c}-\vec{a}\cdot\vec{b}|+\vec{b}\cdot\vec{c}-1 \leq 4(\epsilon+\delta)
+\end{equation}
+Now with the constraint coming from equation \ref{eq:17A} we can hand-pick values of $\vec{a},\vec{b},\vec{c}$ such that $\epsilon$ cannot be made arbitrarily small (take $\vec{a}\cdot\vec{b} = \vec{c}\cdot\vec{b} = 1/\sqrt{2}$ and $\vec{a}\cdot\vec{c} = 0$ this would show $4(\epsilon+\delta)\geq\sqrt{2}-1$). The fact that $\epsilon$ cannot be made arbitrarily small implies that the quantum mechanical value cannot be approximated either accurately or arbitrarily close to this form using hidden variable. So this contradiction implies that some assumptions that we have taken happen to not work together and that happen to be local determinism and hidden variables. So any hidden variable theory by nature itself is non local.
+
+To get the form of the CSHS inequalities we essentially modify the form of equation \ref{eq:14A} and write it as follows
+\begin{equation}
+\label{eq:18A}
+\overline{P}(\vec{a},\vec{b})-\overline{P}(\vec{a},\vec{b}') = \int{d\lambda}\rho(\lambda)\overline{A}(\vec{a},\lambda)\overline{B}(\vec{b},\lambda)[1\pm\overline{A}(\vec{a}',\lambda)\overline{B}(\vec{b}',\lambda)] - \int{d\lambda}\rho(\lambda)\overline{A}(\vec{a},\lambda)\overline{B}(\vec{b}',\lambda)[1\pm\overline{A}(\vec{a}',\lambda)\overline{B}(\vec{b},\lambda)]
+\end{equation}
+We now apply the triangle inequality and also note that the modulus of the averaged functions $\overline{A}$ and $\overline{B}$ are bounded above by 1 we will get
+\begin{equation}
+\label{eq:19A}
+|\overline{P}(\vec{a},\vec{b})-\overline{P}(\vec{a},\vec{b}')| \leq \left|\int{d\lambda}\rho(\lambda)[1\pm\overline{A}(\vec{a}',\lambda)\overline{B}(\vec{b}',\lambda)]\right| + \left|\int{d\lambda}\rho(\lambda)[1\pm\overline{A}(\vec{a}',\lambda)\overline{B}(\vec{b},\lambda)]\right|
+\end{equation}
+We may as well remove the moduli brackets on the LHS since the quantities is non negative. Since $\int\rho(\lambda)d\lambda = 1$ and $\overline{P(\vec{a},\vec{b})} = \int d\lambda\rho(\lambda)\overline{A}(\vec{a},\lambda)\overline{B}(\vec{b},\lambda))$ we can rewrite equation \ref{eq:19A} as
+\begin{equation}
+\label{eq:20A}
+|\overline{P}(\vec{a},\vec{b})-\overline{P}(\vec{a},\vec{b}')| \leq 2 \pm (\overline{P}(\vec{a}',\vec{b}') + \overline{P}(\vec{a}',\vec{b})) \leq 2 \pm |\overline{P}(\vec{a}',\vec{b}') + \overline{P}(\vec{a}',\vec{b})|
+\end{equation}
+The second inequality comes from the triangle inequality. Now we can choose the minus sign and we get
+\begin{equation}
+\label{eq:21A}
+|\overline{P}(\vec{a},\vec{b})-\overline{P}(\vec{a},\vec{b}')| + |\overline{P}(\vec{a}',\vec{b}') + \overline{P}(\vec{a}',\vec{b})| \leq 2
+\end{equation}
+Finally we get the following equation by applying the triangle inequality on RHS of equation \ref{eq:21A}
+\begin{equation}
+\label{eq:22A}
+|\overline{P}(\vec{a},\vec{b}) - \overline{P}(\vec{a},\vec{b}') + \overline{P}(\vec{a}',\vec{b}') + \overline{P}(\vec{a}',\vec{b})| \leq 2
+\end{equation}
+The above inequality is the form of writing the CHSH inequalities \cite{chsh}. The bound above is shown to be 2 which is satisfied for classical systems and is violated for quantum mechanical correlations. One can instead prove a different bound for quantum correlations as $2\sqrt{2}$. This is referred to as the Tsirelon's bound. To prove this we can suppose we have four hermitian operators $A_0,A_1,B_0,B_1$ where $[A_i,B_j] = 0$ but the $[A_0,A_1] \neq 0$ and $[B_0,B_1] \neq 0$. We define these $A$ operators as being two different spin measurements on the same electron and $B$ being the same on the positron where their results are either $+1$ or $-1$. We know that for a simple spin system $[\sigma\cdot\vec{a},\sigma\cdot\vec{b}] = 2\iota\sigma\cdot(\vec{a}\times\vec{b})$. Now we will define a new operator called $\mathcal{B}$
+$$\mathcal{B} = A_0B_0 + A_0B_1 + A_1B_0 - A_1B_1$$
+This operator has been defined along the lines of the bell's measure where expectation value of the modulus of this operator would be the actual bells measure for a correlation function of $C_{ij} = \langle A_iB_j\rangle$. We can now square this operator and it would simpify as the equation below (since $A_i^2 = B_i^2 = I$)
+$$\mathcal{B}^2 = 4I - [A_0,A_1][B_0,B_1]$$
+Since these are spin operators we have $|[A_0,A_1][B_0,B_1]| \leq 4I$ using the commutation relation we had defined earlier. We would in fact have $\mathcal{B}^2$ reach it's maximum if $A_0,B_0$ measures along $\hat{x}$ and $A_1,B_1$ measures along $\hat{y}$ which would make $\mathcal{B}^2 = 8I$. This leads us to $\langle \mathcal{B}\rangle \leq 2\sqrt{2}$ which is the Tsirelon's bound. 
+

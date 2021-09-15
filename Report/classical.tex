@@ -112,7 +112,7 @@ We see that the hash changes significantly.
 \subsubsection*{Surrogate Hash Function: Pearson Hashes and LFSRs}
 The SHA-256 is a rather cumbersome method of hashing that requires significant amount of time and memory when simulating using qiskit. To overcome this difficulty, we will use a surrogate hash called the Pearson Hash\cite{pearson}. The Pearson Hash makes use of a lookup table, which can be achieved using Linear Feedback Shift Registers (LFSR)\cite{lfsr}. These are easy to implement in qiskit\cite{qlfsr}, and the hash so generated satisfies the properties of a good hash. Since the purpose of our project is the search for nonce for a given hashing algorithm and not hashing, using a surrogate hashing algorithm will make no difference.
 
-An LFSR comprises shift registers in which, at each iteration, the elements shift to the adjacent register (like in an ordinary shift register) and the first register takes the value of a linear function of some of the registers. Galois Theory of Fields dictates the working of these LFSRs. The values which are XORed are called taps. %See Appendix
+An LFSR comprises shift registers in which, at each iteration, the elements shift to the adjacent register (like in an ordinary shift register) and the first register takes the value of a linear function of some of the registers. Galois Theory of Fields dictates the working of these LFSRs (See \ref{appA}). The values which are XORed are called taps.
 The LFSR structure is shown in Figure \ref{Fig:3}
 where $\oplus$ denotes XOR.
 \begin{figure}[!htb]

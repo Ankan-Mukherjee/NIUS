@@ -1,5 +1,5 @@
 \section{Our Work}
-In this section, we shall present our work. Our work essentially includes designing a suitable hash function and then cracking it using Generalized Grover Search algorithm. The entire code is available at %link to code.
+In this section, we shall present our work. The code for the same can be found on Git hub\footnote{\url{https://github.com/Ankan-Mukherjee/NIUS.git}}. Our work essentially includes designing a suitable hash function and then cracking it using Generalized Grover Search algorithm. 
 We are working on \textbf{8-bit hashes}. Note that we will use the \textbf{little-endian system} throughout, i.e., $S_0$ represents the Most Significant Bit and $S_7$ the Least Significant Bit.
 \subsection{Classical Hashing Algorithm}
 The hashing algorithm followed is the 8-bit Pearson Hash generation using 2 LFSRs. The taps for the first LFSR are at indices $3$, $4$, $5$ and $7$. The taps for the second LFSR are at indices $1$, $2$, $4$ and $7$. The diagrams for the same are presented in figures \ref{Fig:6.1} and \ref{Fig:6.2} respectively.
@@ -110,6 +110,8 @@ It is now time to put everything together. We shall assume that a valid nonce is
      \label{Fig:6.8}
    \end{minipage}
 \end{figure}
+
+\subsection{Searching the Nonce}
 
 \subsubsection*{Grover Search}
 The grover search involves setting up the nonce to a superposition of all states using a $H$ gate on all the qubits followed by the repeated application of the oracle followed by the diffuser. The diffuser used has been discussed in the section preceding figure \ref{Fig:5.3}. The number of iterations required is given by equation \ref{eq:5.9}, where, we now have $M=8$ solutions instead of $1$. Thus, number of iterations, $k$, is
